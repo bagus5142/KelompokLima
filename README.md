@@ -7,6 +7,7 @@ Repository ini berisi program eksperimen untuk membandingkan performa algoritma 
 - Forward Checking (FC) + Backtracking
 
 ===============================Before Running==============================
+
 Program dijalankan menggunakan Jupyter Notebook (Python 3.11) dan menghasilkan:
 
 - File  hasil eksperimen
@@ -16,6 +17,7 @@ Program dijalankan menggunakan Jupyter Notebook (Python 3.11) dan menghasilkan:
 --------------------------------------------------------------------------
 
 ===============================Library==============================
+
 Untuk menjalankan notebook, pastikan sudah menginstall library library dibawah ini
 
 - os, time, random, statistics
@@ -28,6 +30,7 @@ Untuk menjalankan notebook, pastikan sudah menginstall library library dibawah i
 --------------------------------------------------------------------
 
 ===============================Parameter yang akan digunakan==============================
+
 Sebelum masuk ke kode utama, tentukan parameter eksperimen terlebih dahulu, bisa dilihat di CELL 1 bagian berikut ini :
 
 TIMEOUT_SEC = 90 ---> batas waktu per Sudoku (dalam detik)
@@ -35,8 +38,8 @@ REPEATS = 1 ---> jumlah pengulangan (disarankan 1 untuk speed test, dan menguran
 ------------------------------------------------------------------------------------------
 
 ===============================Running notebook==============================
-Jalankan notebook secara berurutan dari CELL 1 sampai CELL 9.
 
+Jalankan notebook secara berurutan dari CELL 1 sampai CELL 9.
 Ringkasan Fungsi Setiap Cell
 
 Cell	Fungsi
@@ -52,6 +55,7 @@ Cell	Fungsi
 ----------------------------------------------------------------------------
 
 ===============================Output==============================
+
 Setelah seluruh cell dijalankan, folder result/ akan berisi:
 
 - summary.tex : tabel siap LaTeX
