@@ -34,6 +34,7 @@ Untuk menjalankan notebook, pastikan sudah menginstall library library dibawah i
 Sebelum masuk ke kode utama, tentukan parameter eksperimen terlebih dahulu, bisa dilihat di CELL 1 bagian berikut ini :
 
 TIMEOUT_SEC = 90 ---> batas waktu per Sudoku (dalam detik)
+
 REPEATS = 1 ---> jumlah pengulangan (disarankan 1 untuk speed test, dan mengurangi waktu running)
 
 ------------------------------------------------------------------------------------------
