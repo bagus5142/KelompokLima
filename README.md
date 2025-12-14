@@ -35,6 +35,7 @@ Sebelum masuk ke kode utama, tentukan parameter eksperimen terlebih dahulu, bisa
 
 TIMEOUT_SEC = 90 ---> batas waktu per Sudoku (dalam detik)
 REPEATS = 1 ---> jumlah pengulangan (disarankan 1 untuk speed test, dan mengurangi waktu running)
+
 ------------------------------------------------------------------------------------------
 
 ===============================Running notebook==============================
@@ -42,16 +43,16 @@ REPEATS = 1 ---> jumlah pengulangan (disarankan 1 untuk speed test, dan menguran
 Jalankan notebook secara berurutan dari CELL 1 sampai CELL 9.
 Ringkasan Fungsi Setiap Cell
 
-Cell	Fungsi
-1. 	    Import library & konfigurasi
-2.	    Implementasi class SudokuSolver
-3.	    Definisi algoritma MRV & FC
-4.	    Loader dataset
-5.	    Evaluator & pengukuran waktu
-6.	    Eksekusi eksperimen utama
-7.	    Visualisasi grafik
-8.	    Ekspor tabel LaTeX
-9.	    Pembuatan dashboard HTML
+Cell Fungsi
+1. Import library & konfigurasi
+2.	Implementasi class SudokuSolver
+3.	Definisi algoritma MRV & FC
+4.	Loader dataset
+5.	Evaluator & pengukuran waktu
+6.	Eksekusi eksperimen utama
+7.	Visualisasi grafik
+8.	Ekspor tabel LaTeX
+9.	Pembuatan dashboard HTML
 ----------------------------------------------------------------------------
 
 ===============================Output==============================
